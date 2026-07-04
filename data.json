@@ -1,0 +1,55 @@
+[
+    {
+        "title": "TDMUX_NềnToán 12 CTC [7_9 điểm]",
+        "type": "nested",
+        "subtopics": [
+            {
+                "title": "TDMUX01_XL tham số trong đơn điệu",
+                "lectures": [
+                    {
+                        "title": "Bài 1: Xử lý tham số trong đơn điệu đa thức",
+                        "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/682322620813c50002517610/720p.m3u8"
+                    },
+                    {
+                        "title": "Bài 2: Xử lý tham số trong đơn điệu hàm phân thức",
+                        "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/682322f40813c50002517612/720p.m3u8"
+                    }
+                ],
+                "exercises": [],
+                "videos": []
+            },
+            {
+                "title": "TDMUX02_Đơn điệu hàm hợp_Ghép trục",
+                "lectures": [],
+                "exercises": [],
+                "videos": []
+            }
+        ]
+    },
+    {
+        "title": "TDMUC_Phát triển tư duy Toán",
+        "type": "direct",
+        "lectures": [
+            {
+                "title": "Phương pháp tư duy hình học không gian hiện đại",
+                "url": "#"
+            }
+        ],
+        "exercises": [],
+        "videos": []
+    },
+    {
+        "title": "TDMUT_Các bài KSCL TSA",
+        "type": "direct",
+        "lectures": [],
+        "exercises": [],
+        "videos": []
+    },
+    {
+        "title": "TDMUT_Các bài KSCL ĐGNL",
+        "type": "direct",
+        "lectures": [],
+        "exercises": [],
+        "videos": []
+    }
+]
