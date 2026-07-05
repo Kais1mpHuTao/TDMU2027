@@ -1,10 +1,10 @@
 [
     {
-        "title": "TDMUX_NềnToán 12 CTC [7-9 điểm]",
+        "title": "TDMUX_Nền tảng Toán 12 CTC [7-9 điểm]",
         "type": "nested",
         "subtopics": [
             {
-                "title": "TDMUX01_XL tham số trong đơn điệu",
+                "title": "TDMUX01_Xử lý tham số trong đơn điệu",
                 "lectures": [
                     {
                         "title": "Bài 1: Xử lý tham số trong đơn điệu hàm đa thức",
@@ -24,7 +24,7 @@
                 "videos": []
             },
             {
-                "title": "TDMUX02_Đơn điệu hàm hợp_Ghép trục",
+                "title": "TDMUX02_Đơn điệu hàm hợp & Ghép trục",
                 "lectures": [
                     {
                         "title": "Đơn điệu hàm hợp",
@@ -48,7 +48,7 @@
         "type": "direct",
         "lectures": [
             {
-                "title": "Phương pháp tư duy hình học không gian hiện đại",
+                "title": "Những bài toán tư duy tinh hoa thương hiệu độc quyền TDM",
                 "url": "#"
             }
         ],
