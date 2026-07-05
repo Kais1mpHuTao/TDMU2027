@@ -7,7 +7,7 @@
                 "title": "TDMUX01_XL tham số trong đơn điệu",
                 "lectures": [
                     {
-                        "title": "Bài 1: Xử lý tham số trong đơn điệu đa thức",
+                        "title": "Bài 1: Xử lý tham số trong đơn điệu hàm đa thức",
                         "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/682322620813c50002517610/720p.m3u8"
                     },
                     {
@@ -20,10 +20,22 @@
             },
             {
                 "title": "TDMUX02_Đơn điệu hàm hợp_Ghép trục",
-                "lectures": [],
+                "lectures": [
+                    {
+                        "title": "Đơn điệu hàm hợp",
+                        "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/682454ee5082950002bec841/720p.m3u8"
+                    },
+                    {
+                        "title": "Ghép trục phiên bản TDM",
+                        "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/682454ee5082950002bec841/720p.m3u8"
+                    }   
+                ],
                 "exercises": [],
                 "videos": []
-            }
+            },
+            {
+                "title": "TDMUX03_"
+            }   
         ]
     },
     {
