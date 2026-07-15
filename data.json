@@ -46,23 +46,24 @@
                 "title": "TDMUX03_Đơn điệu hàm hiệu",
                 "lectures": [
                     {
-                        "title": "Đơn điệu hàm hiệu fx-gx",
+                        "title": "Đơn điệu hàm {f(x)-g(x)}",
                         "url": "https://tdm-media.izteach.vn/664c635fce5de200093204ea/playlist_720.m3u8"
                     }
-                ]
-                    
+                ],
+                "exercises": [],
+                "videos": []
             },
             {
-                "title": "Cực trị hàm hợp",
+                "title": "TDMUX04_Cực trị hàm hợp",
                 "lectures": [
                     {
-                        "title": "Công thức đếm số điểm cực trị hàm hợp fu",
+                        "title": "Công thức đếm số điểm cực trị hàm hợp f(u)",
                         "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/66924ae42dfe4500086af666/playlist.m3u8"
                     }
-                ]
-            },
-            {
-            
+                ],
+                "exercises": [],
+                "videos": []
+            }   
         ]
     },
     {
@@ -70,7 +71,7 @@
         "type": "direct",
         "lectures": [
             {
-                "title": "Những bài toán tư duy tinh hoa thương hiệu độc quyền TDM",
+                "title": "Phát triển tư duy Số học",
                 "url": "#"
             }
         ],
