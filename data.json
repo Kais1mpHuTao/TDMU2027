@@ -39,7 +39,12 @@
                         "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/682457a20621a200025e0ca8/720p.m3u8"
                     }   
                 ],
-                "exercises": [],
+                "exercises": [
+                    {
+                        "title": "TDMUX02",
+                        "url": "https://drive.google.com/file/d/1lZx8dgg4rL4U5UoT6HZFLGbP8xixVlG8/view?usp=sharing"
+                    }
+                ],
                 "videos": []
             },
             {
@@ -58,7 +63,7 @@
                 "lectures": [
                     {
                         "title": "Công thức đếm số điểm cực trị hàm hợp f(u)",
-                        "url": "https://media.izteach.vn/3573c750-6cd7-11ea-9def-511e35850d83/66924ae42dfe4500086af666/playlist.m3u8"
+                        "url": "https://tdm-media.izteach.vn/664c635fce5de200093204ea/playlist_720.m3u8"
                     }
                 ],
                 "exercises": [],
@@ -71,7 +76,7 @@
         "type": "direct",
         "lectures": [
             {
-                "title": "Phát triển tư duy Số học",
+                "title": "Những bài toán tư duy tinh hoa thương hiệu độc quyền TDM",
                 "url": "#"
             }
         ],
