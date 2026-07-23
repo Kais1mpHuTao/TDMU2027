@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Education - Nâng tầm tri thức, Bứt phá tư duy</title>
+    
+    <!-- YỂM BÙA PRELOAD: Ưu tiên tải logo.webp ngay lập tức -->
+    <link rel="preload" as="image" href="logo.webp">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* --- CÀI ĐẶT CƠ BẢN --- */
@@ -153,6 +157,27 @@
         .fa-circle-play { color: #1e88e5; font-size: 16px; }
         .loading-text { text-align: center; color: var(--primary-red); font-weight: bold; margin-top: 20px; }
 
+        /* --- POSTER QUẢNG CÁO --- */
+        .poster-container {
+            margin-top: 40px;
+            width: 100%;
+            text-align: center;
+        }
+        .promo-poster {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: block; /* Bỏ khoảng trắng thừa dưới ảnh */
+        }
+        .promo-poster:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
         footer {
             text-align: center; padding: 25px; margin-top: 60px;
             background-color: #1a202c; color: #e2e8f0; font-size: 14px; font-weight: 500; border-top: 4px solid var(--dark-red);
@@ -166,14 +191,14 @@
         <div class="door door-left"></div>
         <div class="door door-right"></div>
         <div class="intro-logo-container">
-            <img src="logo.png" alt="Intro Logo" class="intro-logo" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3242/3242257.png'">
+            <img src="logo.webp" alt="Intro Logo" class="intro-logo" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3242/3242257.png'">
         </div>
     </div>
 
     <!-- HEADER -->
     <header>
         <div class="header-logo-container">
-            <img src="logo.png" alt="Space Education Logo" class="web-icon-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3242/3242257.png'">
+            <img src="logo.webp" alt="Space Education Logo" class="web-icon-img" onerror="this.src='https://cdn-icons-png.flaticon.com/512/3242/3242257.png'">
         </div>
         <h1>Space Education</h1>
         <p>Nâng tầm tri thức, Bứt phá tư duy</p>
@@ -184,8 +209,15 @@
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" id="searchInput" placeholder="Tìm kiếm bài giảng...">
         </div>
+        
+        <!-- Khung chứa dữ liệu bài giảng -->
         <div id="topics-container">
             <div class="loading-text"><i class="fa-solid fa-spinner fa-spin"></i> Đang tải dữ liệu từ Google Sheets...</div>
+        </div>
+
+        <!-- KHU VỰC CHỨA POSTER MỚI -->
+        <div class="poster-container">
+            <img src="poster.webp" alt="Space Education Poster" class="promo-poster" onerror="this.style.display='none'">
         </div>
     </div>
 
@@ -214,7 +246,7 @@
             loadGoogleSheetsData();
         });
 
-        // Hàm đọc và phân tích file CSV cực kỳ chắc chắn
+        // Hàm đọc và phân tích file CSV
         function parseCSV(str) {
             const arr = [];
             let quote = false;  
@@ -253,11 +285,10 @@
             }
         }
 
-        // Chuyển đổi dữ liệu bảng tính thành cấu trúc JSON thông minh
+        // Chuyển đổi dữ liệu bảng tính thành cấu trúc JSON
         function transformData(rows) {
             const dataMap = new Map();
             
-            // Bỏ qua dòng tiêu đề đầu tiên (i=1)
             for (let i = 1; i < rows.length; i++) {
                 const cols = rows[i];
                 if (cols.length < 5) continue; 
